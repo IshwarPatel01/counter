@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.counter-container {
+    display: flex; /* Enables Flexbox for the container */
+    gap: 5px; /* Adds spacing between the spans */
+    align-items: center; /* Vertically aligns the spans */
+}
+
+.increment, .decrement {
+    display: flex; /* Enables Flexbox inside each span */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    width: 30px;
+    height: 30px;
+    background: blue;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px; /* Optional: Rounded corners */
+    cursor: pointer; /* Pointer cursor for interactivity */
+}
+
+.counter-value {
+    font-size: 18px; /* Adjust the size of the number */
+    font-weight: bold; /* Makes the number bold */
+    width: 40px; /* Optional: Adds consistent spacing */
+    text-align: center; /* Centers the number horizontally */
+}
