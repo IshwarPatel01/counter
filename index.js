@@ -1,7 +1,7 @@
 const incrementBtn = document.querySelector(".increment")
 const decrementBtn = document.querySelector(".decrement")
 const counterValue = document.querySelector(".counter-value")
-
+const resetBtn = document.querySelector(".reset")
 function increment(){
 
     incrementBtn.addEventListener("click", () => {
@@ -30,3 +30,10 @@ function decrement() {
     
      
         
+function counterReset(){
+    resetBtn.addEventListener("click", () => {
+        counterValue.textContent = 0
+    })
+}
+
+counterReset()

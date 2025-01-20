@@ -1,4 +1,4 @@
-main {
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,4 +32,16 @@ main {
     font-weight: bold; /* Makes the number bold */
     width: 40px; /* Optional: Adds consistent spacing */
     text-align: center; /* Centers the number horizontally */
+}
+
+.reset{
+    margin-top: 20px;
+    margin-left: 7px;
+    width: 100px;
+    height: 30px;
+    background: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    border-color:white ;
+    cursor: pointer;
 }
